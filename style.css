@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+.container{
+    margin:auto;
+    width:85%;
+}
+
+.content-nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-top-ul{
+    display:flex;
+    justify-content:center;
+}
+.nav-top-li{
+    display:flex;
+   justify-content:center;
+   width:200px;
+   font-size:1.3em;
+}
+
+img.image-prensentation{
+    width:100%;
+}
+
+.content-header-nav-left{
+    display:flex;
+    width:100%;
+    height:500px;
+}
+
+.nav-left{
+    display:flex;
+    text-align:center;
+    margin:auto;
+    font-size:2.3em;
+    background-color: rgb(253, 253, 253);
+    padding:0.6em;
+    border-radius:1em;
+    box-shadow:5px 3px 3px rgb(166, 166, 166);
+    position:fixed;
+}
+
+i.fa-brands.fa-linkedin{
+    color: rgb(45,100,188);
+}
+
+.icon{
+    padding:0.3em;
+}
+
+.title-header{
+    width:100%;
+    margin:4em;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+
+.h1-large{
+font-size:3em;
+}
+
+.p-large-xl{
+    font-size:2.5em;
+    font-weight:bolder;
+}
+
+
+.cards-skills{
+    display:flex;
+    width:90%;
+    margin:auto;
+    justify-content:center;
+    align-items:center;
+    margin-top:5em;
+    height:500px;
+}
+.card-ul{
+    display:flex;
+    text-align:center;
+    flex-wrap:wrap;
+}
+
+.card{ 
+    display:flex;
+    flex-direction:column;
+    height:200px;
+    width:20%;
+    margin:1.2em;
+    padding:2em;
+    background-color:rgb(254, 254, 254);
+    border-radius:1em;
+    /*box-shadow:5px 3px 3px rgb(166, 166, 166);*/
+    border: 1px solid  rgb(234, 231, 231);
+    font-family: 'Oswald', sans-serif;
+}
+
+li.icon-card{ 
+    font-size:2.3em;
+    text-align:center;
+    width:30%;
+
+}
+
+.p-medium{ 
+    margin-bottom:1em;
+    text-align:end;
+    font-size:1.2em;
+}
+
+.section-project{ 
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    margin-top:2em;
+}
+
+.card-project{ 
+    background-color:rgb(236, 236, 236);
+    width:25%;
+    height:200px;
+    margin:1em;
+}
+
+footer{
+    margin-bottom:1em;
+    width:100%; 
+    height:300px;
+}
+
